@@ -116,10 +116,11 @@ body {
 }
 
 /* Styling */
-.timeline {
-  margin: 4em auto;
-  position: relative;
-  max-width: 46em;
+.timeline 
+{
+margin: 4em auto;
+    position: relative;
+    width: 60%;
 }
 .timeline:before 
 {
@@ -207,4 +208,15 @@ body {
     display: inline-block;
     margin-bottom: 2.2em;
     padding: 0.25em 4em 0.2em 2em;
+}
+
+.timeline-cicon
+{
+  margin-left: -125px;
+      position: absolute;
+    width: 50px;
+}
+.timeline-cicon img
+{
+  width: 100%;
 }
